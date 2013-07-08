@@ -218,9 +218,5 @@ if [ -s ~/.nvm/nvm.sh ]; then
     nvm use v0.10.12 &> /dev/null # silence nvm use; needed for rsync
 fi
 
-## ------------------------------
-## -- 3) User-customized code  --
-## ------------------------------
-
-## Define any user-specific variables you want here.
-source ~/.bashrc_custom
+# 3) Personnal cool stuff.
+command -v colordiff >/dev/null 2>&1 && alias diff=colordiff
