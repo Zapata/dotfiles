@@ -13,6 +13,7 @@
 (require 'recentf)
 (require 'linum)
 (require 'smooth-scrolling)
+(setq-default indent-tabs-mode nil)
 (require 'whitespace)
 (require 'dired-x)
 (require 'compile)
